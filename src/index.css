@@ -4,7 +4,7 @@
 
 @layer components {
   .AppBody {
-    @apply bg-background text-foreground border-2 w-full h-full;
+    @apply bg-slate-500/60 text-foreground border-2 w-full h-full;
   }
   .AppHeaderContainer {
     @apply border-2 w-full h-16;
@@ -14,6 +14,21 @@
   }
   .CalendarContainer {
     @apply flex flex-col items-center w-full;
+  }
+  .FormContainer {
+    @apply max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-md;
+  }
+  .FormLabel {
+    @apply block text-gray-700 font-semibold mb-1;
+  }
+  .FormInput {
+    @apply block w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-gray-500;
+  }
+  .FormButton {
+    @apply w-full bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-600 transition duration-200;
+  }
+  .FormSelect {
+    @apply block w-3/4 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-gray-500;
   }
 }
 
