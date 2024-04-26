@@ -267,9 +267,9 @@ function App() {
                 className="FormSelect"
               >
                 <option value="Diesel">Diesel</option>
-                <option value="Carbone">Mrs</option>
-                <option value="Lol">Ms</option>
-                <option value="Lille">Dr</option>
+                <option value="Carbone">V8</option>
+                <option value="Lol">Electrique</option>
+                <option value="Lille">Manuel</option>
               </select>
             </div>
             <button type="submit" className="FormButton">
